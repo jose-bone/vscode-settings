@@ -126,7 +126,9 @@
     "*.routes.ts": "routing",
     "*.routes.tsx": "routing",
     "routes.ts": "routing",
-    "routes.tsx": "routing"
+    "routes.tsx": "routing",
+    "router.ts": "routing",
+    "router.tsx": "routing"
   },
 
   "workbench.productIconTheme": "fluent-icons",
@@ -156,7 +158,11 @@
   },
   "[markdown]": {
     "editor.wordWrap": "on",
-    "editor.quickSuggestions": false,
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    },
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.activityBar.visible": true,
@@ -216,5 +222,15 @@
   },
   "git.confirmSync": false,
   "bracketPairColorizer.depreciation-notice": false,
-  "codesnap.backgroundColor": "#121214"
+  "codesnap.backgroundColor": "#121214",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "tabnine.experimentalAutoImports": true,
+  "codestream.serverUrl": "https://api.codestream.com",
+  "files.simpleDialog.enable": true,
+  "workbench.sideBar.location": "right",
+  "workbench.editorAssociations": {
+    "*.html": "default"
+  }
 }
